@@ -44,3 +44,5 @@
 **/incremental/  
 **/.fingerprint/
 
+**/*.lock
+**/*.bin
