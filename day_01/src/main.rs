@@ -22,4 +22,11 @@ fn main() {
     for &num in second_column.iter() {
         *second_column_counts.entry(num).or_insert(0) += 1;
     }
+
+    let similarity_score: i32 = first_column
+        .iter()
+        .map(|&value| value * *second_column_counts.get(&value).unwrap_or(&0))
+        .sum();
+
+    println!("Similarity score: {}", similarity_score);
 }

@@ -1,0 +1,46 @@
+# Rust build artifacts  
+**/target/  
+**/Cargo.lock  
+  
+# Debug and release builds  
+**/debug/  
+**/release/  
+  
+# IDE and editor files  
+**/.vscode/  
+**/.idea/  
+**/*.sublime-*  
+**/*.swp  
+**/.vim/  
+**/*.vim  
+  
+# OS-specific files  
+**/.DS_Store  
+**/Thumbs.db  
+**/*.pdb  
+  
+# Rust-specific  
+**/*.rs.bk  
+**/*.rlib  
+**/*.rmeta  
+**/*.d  
+**/*.dll  
+**/*.dylib  
+**/*.so  
+**/*.exe  
+**/*.o  
+**/*.obj  
+**/*.a  
+**/*.lib  
+  
+# Cargo specific  
+**/.cargo-ok  
+  
+# Build artifacts  
+**/build/  
+**/dist/  
+  
+# Incremental compilation  
+**/incremental/  
+**/.fingerprint/
+
